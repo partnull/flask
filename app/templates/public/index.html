@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel='shortcut icon' href='https://raw.githubusercontent.com/partnull/favicons/master/favicons/favicon.ico' type='image/x-icon' />
+<title>Flask Render API Data</title>
+</head>
+<body>
+<div style="max-width: 480px; margin: auto;">
+
+
+<h4>The Issue:</h4>
+<p>How do you loop over the JSON data but keep it grouped i.e <b>author Betty title Spoiler Alert month May</b> and have access to each item.</p>
+<p>Cause as you can see the second nested loop breaks it apart into key value pairs, as opposed to 5 blocks of 3 grouped items.</p>
+
+
+<hr />
+<h4>Flask/Jinja Template Syntax (reference only)</h4>
+<pre>
+for d in data
+    for k, v in d.items()
+k v
+</pre>
+<hr />
+
+{% for d in data %}
+    
+    {% for k,v in d.items() %}
+        
+        <p><b>{{k}}</b> {{v}}</p>
+         
+    {% endfor %}
+
+{% endfor %}
+
+</div>
+</body>
+</html>
