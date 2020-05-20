@@ -12,5 +12,5 @@ def index():
 
     result = api["articles"]
 
-    return render_template("index.html", data=result)
+    return render_template("public/index.html", data=result)
 
