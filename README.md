@@ -4,7 +4,9 @@
 
 ![Preview](https://github.com/partnull/flask/blob/master/preview.jpg)
 
-##### Project Environment Variables:
+...end preview...
+
+##### Project Environment Variables
 ```shell
 export FLASK_APP=app.py
 export FLASK_ENV=development
