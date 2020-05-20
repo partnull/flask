@@ -6,3 +6,5 @@
 export FLASK_APP=app.py
 export FLASK_ENV=development
 ```
+
+![Preview](https://github.com/partnull/flask/blob/master/preview.jpg)
