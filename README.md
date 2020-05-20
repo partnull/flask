@@ -6,8 +6,25 @@
 
 ...end App preview image...
 
-##### Project Environment Variables
+##### Project Setup
+
+```shell
+python3 -m venv env
+source env/bin/activate
+```
+
+```shell
+pip install -r requirements.txt```
+
 ```shell
 export FLASK_APP=app.py
 export FLASK_ENV=development
+```
+
+```shell
+flask run
+```
+
+```shell
+deactivate
 ```
