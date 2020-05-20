@@ -1,8 +1,8 @@
 ### Python Flask Application, Fetch API Data, Loop and Render To Client.
 
-[API Endpoint](https://partnull.github.io/flask/api.json)
+[API Endpoint](https://partnull.github.io/flask-get-api-data/api.json)
 
-![Preview](https://github.com/partnull/flask/blob/master/preview.jpg)
+![Preview](https://github.com/partnull/flask-get-api-data/blob/master/preview.jpg)
 
 ...end App preview image...
 
