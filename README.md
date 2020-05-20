@@ -4,7 +4,7 @@
 
 ![Preview](https://github.com/partnull/flask/blob/master/preview.jpg)
 
-...end preview...
+...end App preview image...
 
 ##### Project Environment Variables
 ```shell
