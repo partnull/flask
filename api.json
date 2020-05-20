@@ -1,1 +1,29 @@
-
+{
+  "articles": [
+    {
+      "author": "Betty",
+      "title": "Spoiler Alert",
+      "month": "May"
+    },
+    {
+      "author": "Bob",
+      "title": "Less is more",
+      "month": "January"
+    },
+    {
+      "author": "Sandy",
+      "title": "Christmas home or away",
+      "month": "December"
+    },
+    {
+      "author": "Miken",
+      "title": "All about the pictures",
+      "month": "April"
+    },
+    {
+      "author": "Fred",
+      "title": "Summer dishes ad fine wine",
+      "month": "August"
+    }
+  ]
+}
