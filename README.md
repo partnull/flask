@@ -14,7 +14,8 @@ source env/bin/activate
 ```
 
 ```shell
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ```shell
 export FLASK_APP=app.py
