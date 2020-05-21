@@ -6,7 +6,7 @@ from urllib.request import urlopen
 @app.route("/")
 def index():
 
-    url = "https://partnull.github.io/flask/api.json"
+    url = "https://partnull.github.io/flask-get-api-data/api.json"
 
     api = json.loads(urlopen(url).read().decode("utf-8"))
 
